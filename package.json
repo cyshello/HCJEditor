@@ -1,5 +1,16 @@
 {
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "@ckeditor/ckeditor5-build-balloon": "^31.0.0",
     "jquery": "^3.6.0",
     "jszip": "^3.7.1"
