@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-balloon": "^31.0.0",
+    "jquery": "^3.6.0",
+    "jszip": "^3.7.1"
+  },
+  "start": "node server.js"
+}
