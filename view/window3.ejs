@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="https://cdn.ckeditor.com/ckeditor5/31.0.0/balloon/ckeditor.js"></script>
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="idstyle.css">
+        <script src="script.js"></script>
+
+        <%- include ('editor') %>
+        <div class="resultpage" id="resultpage" style="overflow: auto;">
+            <script>
+                ///AddJSscript
+            </script>
+            <textarea id="testelement" style="position: absolute; z-index: 9;"></textarea>
+            <button id="textbtn" style="width:100px;height:50px;position: absolute;"></button>
+        </div>
+    </body>
+</html>
